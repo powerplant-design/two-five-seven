@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+:root {
+  --grey: #1c1c1c;
+  --orange: #fd9962;
+  --peach: #fd807a;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7,6 +15,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, var(--orange), var(--peach));
+  min-height: 100vh;
 }
 article,
 aside,
@@ -40,6 +50,7 @@ template {
   display: none;
 }
 a {
+  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -218,7 +229,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  // margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -228,7 +239,8 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  // margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -340,9 +352,11 @@ ul {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
-  list-style-position: outside;
-  list-style-image: none;
+  // margin-bottom: 1.45rem;
+  margin-bottom: 0;
+  list-style-type: none;
+  // list-style-position: outside;
+  // list-style-image: none;
 }
 ol {
   margin-left: 1.45rem;
@@ -509,7 +523,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  // margin-bottom: calc(1.45rem / 2);
 }
 ol li {
   padding-left: 0;
